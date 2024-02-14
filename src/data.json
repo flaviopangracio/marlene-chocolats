@@ -1,0 +1,39 @@
+{
+  "Ovos de Colher": [
+    {
+      "title": "Ferrero Rocher",
+      "description": "Chocolate, Nutella, amendoim e Ferrero Rocher",
+      "imageUrl": "image-1.png",
+      "price": {
+        "Médio": 80,
+        "Grande": 120,
+        "Especial": 140
+      },
+      "bestSeller": true
+    },
+    {
+      "title": "Ninho e Nutella",
+      "description": "Ninho e Nutella",
+      "imageUrl": "image-2.png",
+      "price": {
+        "Médio": 80,
+        "Grande": 120,
+        "Especial": 140
+      },
+      "bestSeller": true
+    }
+  ],
+  "Ovos de Casca": [
+    {
+      "title": "Maracujá",
+      "description": "Recheio de maracujá",
+      "imageUrl": "image-4.png",
+      "price": {
+        "Médio": 80,
+        "Grande": 120,
+        "Especial": 140
+      },
+      "bestSeller": true
+    }
+  ]
+}
