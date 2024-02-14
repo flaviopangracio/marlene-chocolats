@@ -39,9 +39,11 @@ export function App() {
           Escolha até 3 recheios para o seu ovo de colher
         </p>
         <Tabs defaultValue="Ovos de Colher">
-          <TabsList className="grid w-full grid-cols-2">
+          <TabsList className="grid w-full grid-cols-2 h-12">
             {Object.keys(data).map((key) => (
-              <TabsTrigger value={key}>{key}</TabsTrigger>
+              <TabsTrigger className="h-10" value={key}>
+                {key}
+              </TabsTrigger>
             ))}
           </TabsList>
           {Object.keys(data).map((key) => (
@@ -61,9 +63,11 @@ export function App() {
                       <CardTitle className="text-2xl">{item.title}</CardTitle>
                       <CardDescription>{item.description}</CardDescription>
                       <Tabs className="mt-3" defaultValue="Médio">
-                        <TabsList>
+                        <TabsList className="h-12">
                           {Object.keys(item.price).map((size) => (
-                            <TabsTrigger value={size}>{size}</TabsTrigger>
+                            <TabsTrigger className="h-10" value={size}>
+                              {size}
+                            </TabsTrigger>
                           ))}
                         </TabsList>
                         {Object.keys(item.price).map((size) => (
